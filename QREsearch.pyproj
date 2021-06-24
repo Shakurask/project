@@ -21,7 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="entropy_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="graph_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="plot_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="predict_module.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="QREsearch.py" />
+    <Compile Include="SVD_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="timeline_module.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cit-HepTh-dates.txt" />
